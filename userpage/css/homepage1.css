@@ -1,0 +1,370 @@
+	<style type="text/css">
+		*{
+            padding: 0;
+            margin: 0;
+        }
+
+        body,html{
+	        min-width: 1400px;
+	        overflow-x: hidden;
+}
+
+		#container{
+			width: 100%;
+			height: 700px;
+		}
+		.clear{
+	        clear:both;
+            height:0;
+            overflow:hidden;
+}
+
+		#one{
+			width: 100%;
+			height:10%;
+			float: left;
+
+		}
+
+		#one-one{
+            width: 20%;
+            height: 100%;
+            float: left;
+        }
+
+		#one-two{
+      width: 50%;
+      height: 100%;
+            float:left;
+      text-align: center;
+
+    }
+    #kuangkuang{
+      border-bottom: solid rgb(90, 78, 78) ;
+    }
+    #one-three{
+      border-left: solid black;
+      border-right: solid black;
+      padding: 0px 5px;
+
+    }
+    #one-four{
+      text-align: center;
+      border: solid black;
+      width: 600px;
+      height: 60px;
+      
+    }
+#biaowei1{
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  width: 40px;
+  border: solid rgb(209, 206, 206);
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 10px;
+
+}
+
+#biaowei1 button{
+  position: absolute;
+  border:0px;
+  background:white;
+  top: 300px;
+  float: left;
+  left: 45px;
+}
+
+#biaowei2{
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-left: 150px;
+  width: 40px;
+  border: solid rgb(209, 206, 206);
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 10px;
+
+}
+#biaowei2 button{
+  position: absolute;
+  border:0px;
+  background:white;
+  width:110px;
+  top: 300px;
+  float: left;
+  left: 290px;
+
+}
+
+#biaowei3{
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-left: 150px;
+  width: 40px;
+  border: solid rgb(209, 206, 206);
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 10px;
+}
+#biaowei3 button{
+  position: absolute;
+  border:0px;
+  background:white;
+  width:110px;
+  top: 300px;
+  float: left;
+  left: 562px;
+}
+
+#biaowei4{
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  width: 40px;
+  border: solid rgb(209, 206, 206);
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 10px;
+
+}
+
+#biaowei4 button{
+  position: absolute;
+  border:0px;
+  background:white;
+  top: 470px;
+  float: left;
+  left: 45px;
+}
+
+#biaowei5{
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-left: 150px;
+  width: 40px;
+  border: solid rgb(209, 206, 206);
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 10px;
+
+}
+#biaowei5 button{
+  position: absolute;
+  border:0px;
+  background:white;
+  width:110px;
+  top: 470px;
+  float: left;
+  left: 290px;
+
+}
+
+#biaowei6{
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-left: 150px;
+  width: 40px;
+  border: solid rgb(209, 206, 206);
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 10px;
+}
+#biaowei6 button{
+  position: absolute;
+  border:0px;
+  background:white;
+  width:110px;
+  top: 470px;
+  float: left;
+  left: 562px;
+}
+#biaowei7{
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  width: 40px;
+  border: solid rgb(209, 206, 206);
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 10px;
+
+}
+
+#biaowei7 button{
+  position: absolute;
+  border:0px;
+  background:white;
+  top: 630px;
+  float: left;
+  left: 27px;
+}
+
+#biaowei8{
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-left: 150px;
+  width: 40px;
+  border: solid rgb(209, 206, 206);
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 10px;
+
+}
+#biaowei8 button{
+  position: absolute;
+  border:0px;
+  background:white;
+  width:110px;
+  top: 630px;
+  float: left;
+  left: 290px;
+
+}
+
+#biaowei9{
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-left: 150px;
+  width: 40px;
+  border: solid rgb(209, 206, 206);
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 10px;
+}
+#biaowei9 button{
+  position: absolute;
+  border:0px;
+  background:white;
+  width:110px;
+  top: 630px;
+  float: left;
+  left: 562px;
+}
+#sendpic{
+  border: black solid;
+  float: left;
+  position: absolute;
+  top:250px;
+  left: 900px;
+  width: 200px;
+  height: 400px;
+}
+
+		#one-two ul{
+           list-style: none;
+        }
+
+        #one-two ul li{
+           float: left;
+           width: 6.5em;
+           margin: 0 auto;
+         }
+
+        #one-two ul li a{
+          text-decoration: none;
+          color: grey;
+         }
+
+        #one-two ul li a:hover{
+	      color: #00BFFF;
+         }
+
+		#two{
+			width: 100%;
+			height: 90%;
+			border-top:1px solid grey;
+			background-color: #e7f0ff;
+		}
+
+		#two-one{
+			width:50%;
+			height: 50%;
+			border:2px solid grey;
+			margin:0 auto;
+			margin-top: 5%;
+			display:flex;
+            justify-content: space-around;
+            border-radius: 2em;
+            background-color: white;
+		}
+        
+        #left{
+          width: 40%;
+          height: 100%;
+          padding-left: 10%;
+        }
+        #right{
+          width: 60%
+          height:100%;
+          display:flex;
+          align-items:center;
+          flex-direction:column;
+          margin-right: 5%;
+          margin-top: 5%;
+
+        }
+
+        .shuru{
+	      border-radius: 2em;
+          width: 10em;
+          height: 2em;
+          border:0.05em solid grey;
+          padding-left: 2.5em;
+          margin-left: 40px;
+          margin-top: 0.6em;
+        }
+
+        .shuruR{
+          border-radius: 2em;
+          width: 12.5em;
+          height: 2em;
+          border:0.05em solid grey;
+          padding-left: 2.5em;
+          margin-left: 80px;
+          margin-top: 0.6em;
+        }
+
+        #button{
+          width: 350px;
+        }
+
+        .button1{
+          border-radius: 2em;
+          width: 10em;
+          height: 2em;
+          border:0.05em solid grey;
+          margin-left: 2.4em;
+          margin-top: 0.6em;
+          background-color: #65abf0;
+          font:white;
+        }
+        
+        .button2{
+          border-radius: 2em;
+          width: 10em;
+          height: 2em;
+          border:0.05em solid grey;
+          margin-left: 1em;
+          margin-top: 0.6em;
+          background-color: #65abf0;
+          float:right
+        }
+
+        #yanzhengma{
+	     margin-left: 3.5em;
+        }
+        #two-two{
+        	display: flex;
+        	align-items: center;
+        	flex-direction: column;
+        	margin-top: 10%;
+        }
+	</style>

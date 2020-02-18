@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+ <script type="text/javascript">
+
+  function myCheck()
+  {
+    for(var i=0;i<document.form.elements.length-1;i++)
+    {
+     if(document.form.elements[i].value=="")
+     {
+       alert("Please fill in the blank");
+       document.form.elements[i].focus();
+       return false;
+     }
+   }
+   return true;
+ }
+
+
+ function mbar(sobj) {
+  var docurl =sobj.options[sobj.selectedIndex].value;
+  if (docurl != "") {
+   open(docurl,'_blank');
+   sobj.selectedIndex=0;
+   sobj.blur();
+ }
+}
+
+
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="./css/homepage1.css">
+</head>
+<body>
+	<div id="container">
+    <div id="one">
+      <div id="one-one"><img src="./image/title2.jpg" width="20%" height="100%"></div>
+      <div id="one-two">
+       <ul>
+         <li><a href="homepage1.html" onclick="opens(1)">Home</a></li>
+         <li><a href="consume.html" onclick="opens(2)">Blockchain</a></li>
+         <li><a href="">Service</a></li>
+         <li><a href="">About Us</a></li>
+         <li><a href="">Help Center</a></li>
+         <li><a href="">Login in</a></li>
+       </ul>
+       <div class="clear"></div>
+     </div>
+   </div>
+   <div class="clear"></div>
+   <div id="two">
+     <div id="two-one">
+      <div id="left">
+        <img src="./image/title1.jpg" width="55%" height="50%" style="margin-top: 25%">
+      </div>
+      <div id="right">
+       <h3 style="color: grey">Welcome back！</h3><br>
+       <form name="form" action=" " method="post">
+        Username：<input type="text" name="" style="outline: none;" class="shuru"><br>
+        Role：<select class="shuruR" onchange="mbar(this)" style="outline-style: none;">
+         <option selected=""></option>
+         <option style="outline: none;" value="consumer.html">Consumer</option>
+         <option style="outline: none;" value="http://www.w3school.com.cn/tags/att_input_type.asp">政府</option>
+         <option style="outline: none;" value="dealer.html">经销商</option>
+       </select><br>
+       Password：<input class="shuru" type="password" name="" style="outline: none;"><br>  
+       
+       <div id = "button">
+        <input type="button" value="Login in" onclick="myCheck()" class="button1">
+        <input type="button" value="Register" onclick="javascrtpt:window.location.href='Register.html'" class="button2">
+       </div>
+
+     </form>
+   </div>
+ </div>
+ <div id="two-two"><p>Copyright@Xinlai</p></div>
+</div>
+
+</div>
+
+</body>
+</html>
